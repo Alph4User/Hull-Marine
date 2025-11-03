@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Maritime Engineering</h3>
+            <h3 className="font-bold text-lg mb-4">Hull Marine Limited</h3>
             <p className="text-sm opacity-90 mb-4">
               Leading provider of innovative marine engineering and offshore construction solutions worldwide.
             </p>
@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="border-t border-primary-light pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm opacity-90">
-              © {currentYear} Maritime Engineering Corp. All rights reserved.
+              © {currentYear} Lechtech Systems Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="opacity-90 hover:text-secondary transition-colors">
