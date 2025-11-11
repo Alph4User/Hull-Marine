@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/hull-logo.png"; // Use alias @ if configured, or relative path
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +28,7 @@ const Navbar = () => {
           {/* Logo */}
             <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
               <img
-                src="/src/assets/hull-logo.png"
+                src={logo}
                 alt="Hull Marine Logo"
                 className="w-[220px] sm:w-[260px] md:w-[320px] lg:w-[400px] h-auto mt-6" // or pt-2
               />
