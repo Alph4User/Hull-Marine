@@ -1,73 +1,14 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/c5131616-23b3-4a0d-84c8-e42969385e2d
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/c5131616-23b3-4a0d-84c8-e42969385e2d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c5131616-23b3-4a0d-84c8-e42969385e2d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+| Card | Image | Category Badge | Title | Location + Year | Link |
+|------|-------|----------------|-------|------------------|------|
+| 1 | hull-renewal.jpg | Ship Repairs | Hull Renewal & Propeller Polishing – MV Horizon Star | Mombasa Port • 2023 | View Details |
+| 2 | underwater-welding.jpg | Diving Services | Emergency Underwater Welding – MV East African Pride | Lamu Port • 2022 | View Details |
+| 3 | likoni-bridge.jpg | Civil Engineering | Likoni Bridge Pier Reinforcement | Mombasa • 2020 | View Details |
+| 4 | mv-kilimanjaro-repair.jpg | Ship Repairs | MV Kilimanjaro IV Docking & Repairs – Azam Marine | Mombasa Shipyard • 2025 | View Details |
+| 5 | dongo-kundu-support.jpg | Marine Engineering | Dongo Kundu Bypass Marine Support | Mombasa Coast • 2024 | View Details |
+| 6 | lamu-port-inspection.jpg | Diving Services | Lamu Port Pipeline Inspection & Anode Replacement | Lamu Port • 2025 | View Details |
+| 7 | mv-sea-queen-2008.jpg | Ship Repairs | MV Sea Queen Hull & Engine Overhaul | Mombasa Port • 2008 | View Details |
+| 8 | likoni-dredging-2010.jpg | Marine Engineering | Likoni Channel Dredging & Navigation Support | Mombasa • 2010 | View Details |
+| 9 | rov-lamu-2015.jpg | Diving Services | ROV Pilot Program Launch – Subsea Cable Inspection | Lamu • 2015 | View Details |
+| 10 | factory-piling-2017.jpg | Civil Engineering | Industrial Factory Foundation Piling | Mombasa Industrial Area • 2017 | View Details |
+| 11 | first-diving-2005.jpg | Diving Services | First Commercial Diving Contract – Port Reclamation | Mombasa Port • 2005 | View Details |
+| 12 | oil-rig-vessel-2012.jpg | Ship Repairs | Oil Rig Supply Vessel Mechanical Refit | Mombasa Offshore • 2012 | View Details |
