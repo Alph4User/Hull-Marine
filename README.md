@@ -1,14 +1,65 @@
-| Card | Image | Category Badge | Title | Location + Year | Description | Link |
-|------|-------|----------------|-------|------------------|-------------|------|
-| 1 | hull-renewal.jpg | Ship Repairs | Hull Renewal & Propeller Polishing – MV Horizon Star | Mombasa Port • 2023 | Full underwater NDT, SA 2.5 blasting & eco-coating for a 15,000 DWT bulk carrier, saving 12% fuel. | View Details |
-| 2 | underwater-welding.jpg | Diving Services | Emergency Underwater Welding – MV East African Pride | Lamu Port • 2022 | 48-hour hyperbaric repair of cracked sea chest on 25,000 DWT tanker, saving $150K in downtime. | View Details |
-| 3 | likoni-bridge.jpg | Civil Engineering | Likoni Bridge Pier Reinforcement | Mombasa • 2020 | Steel cofferdams & anodes installed on 4 piers, extending durability by 25+ years. | View Details |
-| 4 | mv-kilimanjaro-repair.jpg | Ship Repairs | MV Kilimanjaro IV Docking & Repairs – Azam Marine | Mombasa Shipyard • 2025 | Comprehensive mechanical and electrical overhaul for flagship Lake Victoria ferry, boosting reliability. | View Details |
-| 5 | dongo-kundu-support.jpg | Marine Engineering | Dongo Kundu Bypass Marine Support | Mombasa Coast • 2024 | Underwater inspections and dredging support for phase two, ensuring safe vessel access to Likoni. | View Details |
-| 6 | lamu-port-inspection.jpg | Diving Services | Lamu Port Pipeline Inspection & Anode Replacement | Lamu Port • 2025 | ROV-assisted subsea surveys and corrosion prevention for LAPSSET oil import corridor. | View Details |
-| 7 | mv-sea-queen-2008.jpg | Ship Repairs | MV Sea Queen Hull & Engine Overhaul | Mombasa Port • 2008 | Full hull renewal and main engine rebuild for 12,000 DWT general cargo vessel, extending service life by 10 years. | View Details |
-| 8 | likoni-dredging-2010.jpg | Marine Engineering | Likoni Channel Dredging & Navigation Support | Mombasa • 2010 | Dredging 150,000 m³ of silt and installing navigation buoys to restore deep-draft access. | View Details |
-| 9 | rov-lamu-2015.jpg | Diving Services | ROV Pilot Program Launch – Subsea Cable Inspection | Lamu • 2015 | First ROV deployment in East Africa for fiber optic cable fault detection, reducing diver risk. | View Details |
-| 10 | factory-piling-2017.jpg | Civil Engineering | Industrial Factory Foundation Piling | Mombasa Industrial Area • 2017 | 300+ steel piles driven for food processing plant, completed 3 weeks ahead of schedule. | View Details |
-| 11 | first-diving-2005.jpg | Diving Services | First Commercial Diving Contract – Port Reclamation | Mombasa Port • 2005 | Underwater debris removal and seabed leveling for new container terminal berth. | View Details |
-| 12 | oil-rig-vessel-2012.jpg | Ship Repairs | Oil Rig Supply Vessel Mechanical Refit | Mombasa Offshore • 2012 | Engine overhaul and dynamic positioning system upgrade for PSV serving Tullow Oil operations. | View Details |
+# Hull Marine Website
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Vercel](https://img.shields.io/badge/Deployed-Vercel-blue)](https://hull-marine.vercel.app)
+[![Next.js](https://img.shields.io/badge/Framework-Next.js-black?logo=next.js)](https://nextjs.org)
+[![Tailwind CSS](https://img.shields.io/badge/Styling-TailwindCSS-blue?logo=tailwind-css)](https://tailwindcss.com)
+
+---
+
+## 🚢 Description
+The Hull Marine website is a **modern, responsive web platform** for Hull Marine Limited, a company specializing in ship repair and marine engineering. The site highlights services, completed projects, and provides an easy way for clients to get in touch.
+
+---
+
+## 🌟 Features
+- Fully responsive design (desktop, tablet, mobile)
+- Hero section with call-to-action buttons
+- Services section:
+  - Hull Renewal & Propeller Polishing
+  - Emergency Underwater Welding
+  - Pier Reinforcement
+- Projects/portfolio section with images and descriptions
+- Contact form for inquiries
+- About & mission statement sections
+- Smooth navigation and modern UI/UX
+
+---
+
+## 🖥 Screenshots
+
+### Hero Section
+![Hero Section](screenshots/hero-section.png)
+
+### Services Section
+![Services Section](screenshots/services-section.png)
+
+### Projects Section
+![Projects Section](screenshots/projects-section.png)
+
+### Contact Section
+![Contact Section](screenshots/contact-section.png)
+
+*(Replace with your actual screenshots in `screenshots/` folder)*
+
+---
+
+## 🎬 Live Demo
+Check the live site here: [Hull Marine Website](https://hull-marine.vercel.app)
+
+---
+
+## ⚙ Tech Stack
+- **Next.js** – React framework for SSR & routing
+- **React** – Frontend library
+- **Tailwind CSS** – Styling
+- **Vercel** – Deployment
+- **React Query** – Data fetching and state management
+- **React Router** – Navigation
+
+---
+
+## 💻 Installation
+1. Clone the repository:
+```bash
+git clone git@github.com:Alph4User/Hull-Marine.git
