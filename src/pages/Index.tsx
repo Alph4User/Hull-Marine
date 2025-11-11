@@ -5,39 +5,40 @@ import ProjectCard from "@/components/ProjectCard";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Anchor, Ship, Waves, Building2, Wind, Wrench } from "lucide-react";
+import { Link } from "react-router-dom";
 
-import projectWind from "@/assets/project-wind.jpg";
-import projectDredging from "@/assets/project-dredging.jpg";
-import projectBridge from "@/assets/project-bridge.jpg";
+import projectWind from "@/assets/hull-renewed.jpg";
+import projectDredging from "@/assets/underwater-weld.png";
+import projectBridge from "@/assets/likoni-bridge.png";
 
 const Index = () => {
   const featuredProjects = [
     {
-      title: "Offshore Wind Farm Installation",
-      location: "North Sea, Europe",
-      date: "2024",
-      category: "Renewable Energy",
+      title: "Hull Renewal & Propeller Polishing – MV Horizon Star",
+      location: "Mombasa Port, Kenya",
+      date: "2023",
+      category: "Ship Repairs",
       image: projectWind,
       description:
-        "Installation of 100+ wind turbines using advanced marine construction vessels, contributing to sustainable energy generation.",
+        "Full underwater NDT, SA 2.5 blasting & eco-coating for a 15,000 DWT bulk carrier, saving 12% fuel.",
     },
     {
-      title: "Port Expansion & Dredging",
-      location: "Singapore",
+      title: "Emergency Underwater Welding – MV East African Pride",
+      location: "Lamu Port, Kenya",
       date: "2023-2024",
-      category: "Infrastructure",
+      category: "Diving Services",
       image: projectDredging,
       description:
-        "Major dredging operation to expand port capacity, enhancing maritime trade capabilities in Southeast Asia.",
+        "48-hour hyperbaric repair of cracked sea chest on 25,000 DWT tanker, saving $150K in downtime.",
     },
     {
-      title: "Coastal Bridge Construction",
-      location: "Middle East",
-      date: "2023",
+      title: "Likoni Bridge Pier Reinforcement",
+      location: "Mombasa",
+      date: "2020",
       category: "Civil Engineering",
       image: projectBridge,
       description:
-        "Engineering excellence in constructing a landmark coastal bridge connecting major economic zones.",
+        "Steel cofferdams & anodes installed on 4 piers, extending durability by 25+ years.",
     },
   ];
 
@@ -93,10 +94,15 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h2 className="text-primary">Our Mission</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We are committed to delivering world-class marine engineering and offshore construction
-              solutions that drive innovation, sustainability, and excellence. Our team of experts
-              combines decades of experience with cutting-edge technology to tackle the world's most
-              challenging maritime projects.
+              At Hull Marine Limited, we are dedicated to powering East Africa’s maritime future through safe, 
+              sustainable, and world-class ship repair, diving, and engineering solutions. Based in Mombasa, we 
+              keep vessels operational, crews safe, and trade flowing across the region by minimizing downtime 
+              with rapid, precise, and cost-effective repairs. We protect lives and the environment through zero-incident 
+              operations, fully compliant with IMO, ISO 45001, and regional standards. We drive innovation by equipping 
+              Africa’s sharpest marine talent with cutting-edge technology—from ROV inspections to AI-powered predictive 
+              maintenance—and strengthen the blue economy by supporting local expertise, sustainable practices, and seamless 
+              logistics for global partners. With over 20 years of experience and more than 500 vessels serviced, our single 
+              mission remains clear: Keep East Africa moving. We don’t just repair ships—we build trust, one weld at a time.
             </p>
           </div>
         </div>
@@ -120,11 +126,15 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <Button variant="default" size="lg" className="group">
-              View All Projects
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link to="/projects">
+              <Button variant="default" size="lg" className="group">
+                View All Projects
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
           </div>
+
+
         </div>
       </section>
 

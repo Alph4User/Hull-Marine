@@ -10,7 +10,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-20 corporate-hero">
         <div className="container mx-auto px-4 text-center text-primary-foreground">
-          <h1 className="mb-6 fade-in">About Maritime Engineering</h1>
+          <h1 className="mb-6 fade-in">About Hull Marine Limited</h1>
           <p className="text-xl max-w-3xl mx-auto opacity-95 fade-in">
             Five decades of engineering excellence, innovation, and commitment to delivering world-class maritime solutions.
           </p>
@@ -31,9 +31,8 @@ const About = () => {
                   commitment to sustainable development.
                 </p>
                 <p>
-                  Today, we operate a fleet of state-of-the-art vessels and employ over 10,000
-                  professionals across 75 countries. From offshore wind farms to major port expansions,
-                  our projects shape the future of global infrastructure.
+                  From hull repairs and machinery overhauls to electrical system upgrades and beyond, 
+                  our comprehensive services cover a wide spectrum of ship repair needs.
                 </p>
               </div>
             </div>

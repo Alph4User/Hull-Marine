@@ -17,42 +17,46 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-6 fade-in">
           <h1 className="text-primary-foreground font-bold leading-tight text-balance">
-            Engineering Excellence
+            East Africa's Premier Partner for Commercial 
             <br />
-            <span className="text-secondary">for a Sustainable Future</span>
+            <span className="text-secondary">Ship Repairs & Marine Solutions</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/95 max-w-2xl mx-auto text-balance">
-            Leading global provider of innovative marine engineering, offshore construction, and
-            infrastructure solutions for the world's most complex projects.
+            Delivering Cost-Effective, High-Precision Services to Keep Your Vessels Sailing Smoothly
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button variant="hero" size="lg" className="group">
               Explore Our Projects
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              <PlayCircle className="mr-2 h-5 w-5" />
-              Watch Video
+           <Button 
+              variant="outline" 
+              size="lg" 
+              className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+            >
+              {/* <PlayCircle className="mr-2 h-5 w-5" /> */}
+              Contact Our Team
             </Button>
+
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-1">50+</div>
+              <div className="text-4xl font-bold text-secondary mb-1">20+</div>
               <div className="text-sm text-primary-foreground/90">Years Experience</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-secondary mb-1">500+</div>
-              <div className="text-sm text-primary-foreground/90">Projects Delivered</div>
+              <div className="text-sm text-primary-foreground/90">Vessels Repaired</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-1">75+</div>
-              <div className="text-sm text-primary-foreground/90">Countries Worldwide</div>
+              <div className="text-4xl font-bold text-secondary mb-1">24/7</div>
+              <div className="text-sm text-primary-foreground/90">Emergency Response</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-1">10K+</div>
-              <div className="text-sm text-primary-foreground/90">Team Members</div>
+              <div className="text-4xl font-bold text-secondary mb-1">100%</div>
+              <div className="text-sm text-primary-foreground/90">Safety Compliance</div>
             </div>
           </div>
         </div>

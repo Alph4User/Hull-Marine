@@ -74,15 +74,15 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" />
-                <span className="opacity-90">123 Harbor Drive, Maritime City, MC 12345</span>
+                <span className="opacity-90">Mombasa, Kenya</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 flex-shrink-0" />
-                <span className="opacity-90">+1 (555) 123-4567</span>
+                <span className="opacity-90">+254 (792) 567215</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 flex-shrink-0" />
-                <span className="opacity-90">info@maritime-eng.com</span>
+                <span className="opacity-90">info@hull-marine.com</span>
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="border-t border-primary-light pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm opacity-90">
-              © {currentYear} Lechtech Systems Ltd. All rights reserved.
+              © {currentYear} Valencia Systems Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="opacity-90 hover:text-secondary transition-colors">

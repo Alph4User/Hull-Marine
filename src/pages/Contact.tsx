@@ -32,7 +32,9 @@ const Contact = () => {
         <div className="container mx-auto px-4 text-center text-primary-foreground">
           <h1 className="mb-6 fade-in">Contact Us</h1>
           <p className="text-xl max-w-3xl mx-auto opacity-95 fade-in">
-            Get in touch with our team to discuss your next maritime engineering project.
+            For inquiries or requests that require a more personal response, we will make 
+            every attempt to respond within 48 hours. Please complete the form and provide 
+            us with your information. It is important that you complete all fields.
           </p>
         </div>
       </section>
@@ -53,8 +55,8 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">info@maritime-eng.com</p>
-                  <p className="text-muted-foreground">projects@maritime-eng.com</p>
+                  <p className="text-muted-foreground">info@hull-marine.com</p>
+                  <p className="text-muted-foreground">technical@hull-marine.com</p>
                 </CardContent>
               </Card>
 
@@ -68,8 +70,8 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4568</p>
+                  <p className="text-muted-foreground">+254 (792) 567215</p>
+                  <p className="text-muted-foreground">+254 (792) 567215</p>
                 </CardContent>
               </Card>
 
@@ -84,9 +86,9 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    123 Harbor Drive<br />
-                    Maritime City, MC 12345<br />
-                    United States
+                    Ganjoni,<br />
+                    Mombasa,<br />
+                    Kenya
                   </p>
                 </CardContent>
               </Card>
@@ -102,7 +104,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Monday - Friday: 8:00 AM - 6:00 PM<br />
+                    Monday - Friday: 8:00 AM - 5:00 PM<br />
                     Saturday: 9:00 AM - 2:00 PM<br />
                     Sunday: Closed
                   </p>
